@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- saved from url=(0104)file:///C:/Users/Arpit%20Parmar/Desktop/Web%20development/First%20Website/Release/Release%204/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <title>E-Cell, SGSITS Indore</title>
+        <link href="./E-Cell, SGSITS Indore1_files/homepage.css" rel="stylesheet" media="screen" type="text/css">
+        <link rel="shortcut icon" href="file:///C:/Users/Arpit%20Parmar/Desktop/Web%20development/First%20Website/Release/Release%204/images/LOGO.ico" style="border-radius:100px;">
+    </head>
+    
+    <body>
+        <nav id="header_container">
+            <div>
+                <img src="file:///C:/Users/Arpit%20Parmar/Desktop/Web%20development/First%20Website/Release/Release%204/images/burger.png" width="35" height="35" id="burgermenu" onclick="hamburger();">
+            </div>
+            <div id="header_value_container" class="header_value_container_active">
+                <a href="file:///C:/Users/Arpit%20Parmar/Desktop/Web%20development/First%20Website/Release/Release%204/index.html#"><div class="header_value active_header_value" id="home">HOME</div></a>
+                <a href="file:///C:/Users/Arpit%20Parmar/Desktop/Web%20development/First%20Website/Release/Release%204/pages/about_us.html"><div class="header_value">ABOUT US</div></a>
+                <a href="file:///C:/Users/Arpit%20Parmar/Desktop/Web%20development/First%20Website/Release/Release%204/pages/events.html"><div class="header_value">EVENTS</div></a>
+                <a href="file:///C:/Users/Arpit%20Parmar/Desktop/Web%20development/First%20Website/Release/Release%204/pages/team.html"><div class="header_value">TEAM</div></a>
+                <a href="file:///C:/Users/Arpit%20Parmar/Desktop/Web%20development/First%20Website/Release/Release%204/pages/partners.html"><div class="header_value">PARTNERS</div></a>
+                <a href="file:///C:/Users/Arpit%20Parmar/Desktop/Web%20development/First%20Website/Release/Release%204/pages/gallery.html"><div class="header_value">GALLERY</div></a>
+                <a href="file:///C:/Users/Arpit%20Parmar/Desktop/Web%20development/First%20Website/Release/Release%204/pages/contact_us.html"><div class="header_value">CONTACT US</div></a>
+            </div>
+        </nav>
+        <!--This is main body-->
+        <div>
+            <div class="main_heading_home_page" id="main_heading" style="transition: background 2s ease-in-out; background: url(&#39;file:///C:/Users/Arpit%20Parmar/Desktop/Web%20development/First%20Website/Release/Release%204/Images/Backgrounds/1%20(2).jpg&#39;) ;">
+                <div class="span1">E-Cell, SGSITS INDORE</div>
+                <div class="span2" id="_span2">
+                    <span class="deactivate activate" id="span2_1">EVOKE! </span>
+                    <span class="deactivate activate" id="span2_2">ENTERPRISE! </span>
+                    <span class="deactivate activate" id="span2_3">EXPAND!</span>
+                </div>
+                <div class="">
+                    <img src="./E-Cell, SGSITS Indore1_files/logo.jpg" class="span3" id="span_3" style="float:left;margin-left:240px;">
+                    <img src="./E-Cell, SGSITS Indore1_files/sgsits.png" class="span3" id="span_3" style="float:right;margin-right:240px;">
+                </div>
+            </div>
+            <div class="slidercontainer">
+                <img src="./E-Cell, SGSITS Indore1_files/(1).jpg" class="image" id="homeslider1">
+                <img src="./E-Cell, SGSITS Indore1_files/(2).jpg" class="image active" id="homeslider2">
+                <img src="./E-Cell, SGSITS Indore1_files/(3).jpg" class="image" id="homeslider3">
+                <img src="./E-Cell, SGSITS Indore1_files/(4).jpg" class="image" id="homeslider4">
+            </div>
+            <div>
+                <div class="navbulletscontainer">
+                    <img src="./E-Cell, SGSITS Indore1_files/bullet.png" class="navbullets" id="bullet1">
+                </div>
+                <div class="navbulletscontainer">
+                    <img src="./E-Cell, SGSITS Indore1_files/bullet.png" class="navbullets active1" id="bullet2">
+                </div>
+                <div class="navbulletscontainer">
+                    <img src="./E-Cell, SGSITS Indore1_files/bullet.png" class="navbullets" id="bullet3">
+                </div>
+                <div class="navbulletscontainer">
+                    <img src="./E-Cell, SGSITS Indore1_files/bullet.png" class="navbullets" id="bullet4">
+                </div>
+                <div class="paragraph" style="display:block;margin-top:15px;">
+                    <div class="inside_paragraph">The E-Cell SGSITS Indore is a non-profit organization run by students of SGSITS promoting and nurturing the spirit of entrepreneurship
+                        among students.</div>
+                </div>
+                <!-- <h6>| SITE UNDER CONSTRUCTION |</h6>-->
+            </div>
+        </div>
+        <!--Main Body ends here-->
+        <div class="end">| © 2015, E-Cell, SGSITS Indore |
+            <span class="ending">| All Rights Reserved |</span>| 1.0.0 |</div>
+        <script type="text/javascript" src="./E-Cell, SGSITS Indore1_files/imageslider.js"></script>
+        <script>
+            function hamburger() {
+                var hambergurvar = document.getElementById("header_value_container");
+                hambergurvar.classList.toggle("header_value_container_active");
+            }
+
+            setTimeout(function () {
+                var eee = document.getElementById("span2_1");
+
+                eee.classList.toggle("activate");
+
+
+            }, 2000);
+            setTimeout(function () {
+                var eee = document.getElementById("span2_2");
+
+                eee.classList.toggle("activate");
+
+
+            }, 2750);
+            setTimeout(function () {
+                var eee = document.getElementById("span2_3");
+
+                eee.classList.toggle("activate");
+
+
+            }, 3500);
+        </script>
+    
+</body></html>
