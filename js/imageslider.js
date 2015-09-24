@@ -8,7 +8,7 @@ var lowerbound = 1;
 
 /*for setting background*/
 
-var main_heading_home_page = document.getElementById("main_heading");
+/*var main_heading_home_page = document.getElementById("main_heading");
 var a = (Math.floor(Math.random() * (upperbound - lowerbound)) + 1);
 main_heading_home_page.style.background = "url(\"Images/Backgrounds/1 (" + a + ").jpg\")";
 main_heading_home_page.style.backgroundSize = "cover";
@@ -21,7 +21,7 @@ setInterval(function () {
     a = (Math.floor(Math.random() * (upperbound - lowerbound)) + 1);
 }, 20000);
 
-
+*/
 /*background setting done*/
 
 
@@ -68,42 +68,3 @@ setInterval(function () {
 
 }, 5000);
 
-function imageslideup(i) {
-
-    switch (i) {
-        case 1:
-            var memberimage = document.getElementById("tusharimage");
-            break;
-        case 2:
-            var memberimage = document.getElementById("toshiimage");
-            break;
-        case 3:
-            var memberimage = document.getElementById("amandeepimage");
-            break;
-        case 4:
-            var memberimage = document.getElementById("ankeitaimage");
-            break;
-        case 5:
-            var memberimage = document.getElementById("dishaimage");
-            break;
-        case 6:
-            var memberimage = document.getElementById("maitreyeeimage");
-            break;
-        case 7:
-            var memberimage = document.getElementById("himanshuimage");
-            break;
-        case 8:
-            var memberimage = document.getElementById("tanayimage");
-            break;
-        case 9:
-            var memberimage = document.getElementById("adhishriimage");
-            break;
-        case 10:
-            var memberimage = document.getElementById("shivaniimage");
-            break;
-        case 11:
-            var memberimage = document.getElementById("yashimage");
-            break;
-    }
-    memberimage.classList.toggle("imageslideupactive");   
-}
