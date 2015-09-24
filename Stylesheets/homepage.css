@@ -32,7 +32,7 @@ a{
     top:0;
     left:0;
     z-index:10000;
-    background:rgba(164, 166, 177, 0.4);  
+    background:rgba(255, 255, 255, 0.49);
     height:20px;
     width:100%;
     padding:20.5px 0px;
@@ -64,14 +64,14 @@ a{
     border-radius:0px 0px 8px 8px;
 }
 .active_header_value{
-    background:rgba(219, 228, 9,1); 
+    background:linear-gradient(rgb(138, 169, 255),rgb(0, 17, 197));
     color:black;   
 }
 .active_header_value:hover{
     transition:color ease-in-out .05s;
     transition:background ease-in-out .05s;
     transition:padding ease-in-out .1s;
-    background:rgb(219, 228, 9); 
+    background:linear-gradient(rgb(138, 169, 255),rgb(0, 17, 197));
     color:black;   
     //border-bottom:1px solid black;
 }
@@ -81,35 +81,35 @@ a{
 }
 .main_heading_home_page{
     width:100%;
-    height:590px;
+    height:651px;
     color:white;
     overflow:hidden;
     padding:10px 0;
-    margin:61px 0 0 0px;
+    margin:0px 0 0 0px;
     -moz-box-shadow: 5px 5px 5px #777777; 
     -webkit-box-shadow: 5px 5px 5px #777777; 
     box-shadow: 0px 5px 5px rgba(0,0,0,.3);
-    //background:url("../Images/backgroundwallpaper.jpg");
-    //background-size:cover;
+    background:url("../Images/Backgrounds/1 (1).jpg");
+    background-size:cover;
 }
 
 .span1 {
     display: block;
-    margin-top:40px;
-    color: rgba(219, 228, 9,1);
+    margin-top:130px;
+    color:linear-gradient(rgb(255, 255, 255),rgb(170, 170, 170));
     //color:red;
     font-family: 'Cambria Math';
-    font-size: 90px;
+    font-size: 75px;
     font-weight: bold;
     animation:heading linear 2s 1;
     transition:font-size ease-in-out .7s;
-    text-shadow: 3px 3px rgba(0, 0, 0, .3);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .7);
 }
-.span1:hover {
+/*.span1:hover {
     color: rgba(219, 228, 9,1);
     //opacity:.8;
     //font-size:130px;
-}
+}*/
 .span2{
     display:block;
     color:rgba(0,0,0, 1);
@@ -247,18 +247,18 @@ a{
     0%{
        opacity:0;
        color: rgba(0, 0, 0, 1);
-       margin-top:130px;
+       margin-top:230px;
     }
     50% {
         opacity:.5;
-        margin-top:130px;
-        font-size:100px;
+        margin-top:230px;
+        font-size:80px;
     }
     100%{
         opacity:1;
         color:blanchedalmond;
-        font-size:90px;
-        margin-top:40px;
+        font-size:75px;
+        margin-top:130px;
     }
 }
 @keyframes heading1{
